@@ -2,7 +2,7 @@
 
 Published by **[GTRowsss](https://github.com/GTRows)**. Minecraft 1.21.1 / NeoForge 21.1.265 / Java 21.
 
-**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.1)** · [Installation](INSTALLATION.md) · [Turkce](README.tr.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues)
+**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.1)** · [Installation](INSTALLATION.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues)
 
 ![AI-generated brand artwork, not an in-game screenshot](assets/containment-frontier-cover.png)
 
