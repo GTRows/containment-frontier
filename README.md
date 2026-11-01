@@ -2,7 +2,7 @@
 
 Published by **[GTRowsss](https://github.com/GTRows)**. Minecraft 1.21.1 / NeoForge 21.1.265 / Java 21.
 
-**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.1)** · [Installation](INSTALLATION.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues)
+**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.2)** · [Installation](INSTALLATION.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues)
 
 ![AI-generated brand artwork, not an in-game screenshot](assets/containment-frontier-cover.png)
 
@@ -34,7 +34,7 @@ Download the beta ZIP from this repository's Releases and import it into a new C
 
 Choose the recipe mode and difficulty once. Use your starting **Field Tablet** to open **Crew registration**, create or join an FTB Teams party, then select **Register campaign**. A one-player party is sufficient. Follow the opening quest chapter for supplies and production; there is no free clone station or prepared clone body.
 
-The tablet and inventory/JEI shortcuts open Operations and Research. Local machine panels handle that machine's requirements and connection faces. Owned interface and quest text support Turkish and English while item and block names remain English. The panel language selector does not change Minecraft's overall language.
+The tablet and inventory/JEI shortcuts open Operations and Research. Local machine panels handle that machine's requirements and connection faces. Pack-owned interface, quest and story text support **English, Russian, Spanish, Brazilian Portuguese, German and Turkish** in beta 2 and later. Open **Language** in the Operations sidebar to enter **Settings**. Your choice applies immediately and is saved for that client profile; it does not change Minecraft's overall language. Item and block names remain English. Beta 1 retains its original English/Turkish support.
 
 ## Version and server information
 
@@ -45,7 +45,7 @@ The tablet and inventory/JEI shortcuts open Operations and Research. Local machi
 
 ## Public beta scope
 
-This first GitHub beta is based on private59 a9. Its App-generated manifest is unchanged. The original campaign module is included in overrides while its CurseForge catalog approval is pending. Automated source checks, scoped native machine/research/defense fixtures, personal-clone rules, owned models and JEI visibility, basic client interfaces and backup/restore have recorded checks. They do not constitute a full survival playthrough.
+Beta 2 extends the private59 a9 campaign with the language settings update. Its App-generated manifest is unchanged. The original campaign module is included in overrides while its CurseForge catalog approval is pending. Automated source checks, scoped native machine/research/defense fixtures, personal-clone rules, owned models and JEI visibility, basic client interfaces and backup/restore have recorded checks. They do not constitute a full survival playthrough. The language update passes source and resource checks; the new Settings view still needs an in-game visual and keyboard check. Earlier native checks retain their original build scope.
 
 Long solo/cooperative campaigns, naturally earned high-trait crop breeding and sustained endgame treatment production still need broader playtesting. Balance and progression may change during beta. Start a new world for this first beta and do not overwrite an existing campaign.
 

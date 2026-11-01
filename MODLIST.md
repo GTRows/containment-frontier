@@ -115,4 +115,4 @@
 
 ## Original campaign module
 
-Continuity Frontier `0.5.0-dev`, exact private59 a9 artifact. It requires the complete pack data; it is not a standalone campaign download. Its internal qualification label is a development name, not a claim of full survival qualification.
+Continuity Frontier `0.5.0-dev`, the beta 2 language-settings artifact built on private59 a9. It requires the complete pack data; it is not a standalone campaign download. Its internal qualification label is a development name, not a claim of full survival qualification.

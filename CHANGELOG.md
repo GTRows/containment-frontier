@@ -1,3 +1,19 @@
+# 0.5.0-beta.2 - GitHub prerelease
+
+- Adds a Language entry in Operations that opens local Settings without leaving the current machine or tablet session.
+- Adds Russian, Spanish, Brazilian Portuguese and German alongside English and Turkish for pack-owned interface, quest, story and notification text.
+- Saves the language per client profile and applies it immediately. Minecraft's global language and English item/block names remain unchanged.
+- Preserves keyboard focus when rebuilding the panel and clears removed controls when returning from Settings. Escape returns to the previous panel.
+- Makes public presentation English-only and lists the supported in-game languages.
+
+This update builds on the private59 a9 campaign. Earlier campaign fixture results retain their original artifact scope. Full earned survival progression, high-trait breeding, sustained treatment production and long-session performance remain open beta acceptance work. Back up before updating and keep matching pack versions.
+
+Validation: 196 Java test programs and 629 Python tests across 64 isolated modules pass. The exact module, all six resource catalogs, unchanged 30-file authored world and unedited CurseForge App export were verified. In-game rendering and keyboard checks of the new Settings view remain pending; this update does not claim a new native campaign playthrough.
+
+CurseForge catalog moderation and the modpack's approved-module export are separate publication gates. A GitHub prerelease is not proof of CurseForge approval.
+
+---
+
 # 0.5.0-beta.1 - GitHub prerelease
 
 Based on the immutable private59 a9 campaign build. Distributed through the GitHub prerelease. CurseForge catalog approval remains pending.

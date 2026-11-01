@@ -1,25 +1,38 @@
 {
-  "version": "0.5.0-beta.1",
+  "version": "0.5.0-beta.2",
   "channel": "Beta",
   "publisherDisplayName": "GTRowsss",
   "githubOwner": "GTRows",
   "repository": "https://github.com/GTRows/containment-frontier",
-  "release": "https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.1",
+  "release": "https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.2",
   "minecraft": "1.21.1",
   "loader": "NeoForge 21.1.265",
   "java": 21,
   "recommendedMemoryMB": 6144,
-  "basedOn": "private59 a9",
+  "basedOn": "private59 a9 + scoped language settings",
   "client": {
-    "filename": "Containment-Frontier-0.5.0-beta.1-CurseForge.zip",
-    "sha256": "fe2ff8c6bfc573119c1b4ccb30b54b8ad03d44d4c3eb5170d35462d051d36b5a",
-    "bytes": 11573129,
-    "download": "https://github.com/GTRows/containment-frontier/releases/download/v0.5.0-beta.1/Containment-Frontier-0.5.0-beta.1-CurseForge.zip",
+    "filename": "Containment-Frontier-0.5.0-beta.2-CurseForge.zip",
+    "sha256": "fb813894c70e8356f62ed4e99c3330334b0e8f4dba15f774dc4a99891f0dbeca",
+    "bytes": 11873714,
+    "download": "https://github.com/GTRows/containment-frontier/releases/download/v0.5.0-beta.2/Containment-Frontier-0.5.0-beta.2-CurseForge.zip",
     "appManifestEdited": false
   },
-  "customModuleSha256": "4197b2e9b2e8a914d91f2247e76c325db3c5e4745beb6609bb910b8542f600ec",
+  "customModuleSha256": "ad5a2920f54dbdcb8e632c57b5130b120569ce886b0f98c1c17a9d70bd052959",
   "curseforgeCatalogApproved": false,
   "campaignReady": false,
   "qualifiedRelease": false,
-  "serverDownloadAvailable": false
+  "serverDownloadAvailable": false,
+  "languages": {
+    "scope": "Pack-owned interface, quests, story and notifications only",
+    "supported": [
+      "en_us",
+      "ru_ru",
+      "es_es",
+      "pt_br",
+      "de_de",
+      "tr_tr"
+    ],
+    "itemAndBlockNames": "English",
+    "minecraftGlobalLanguageChanged": false
+  }
 }
