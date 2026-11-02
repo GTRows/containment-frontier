@@ -45,6 +45,10 @@ The tablet and the single **Field Overview** inventory/JEI shortcut open Operati
 - A matching Docker server package exists in development. Its public binary distribution review is pending, so this GitHub beta provides the client pack only.
 - Automatic world backups are configured through **Simple Backups**. Keep independent copies and the matching pack version before updating; a local backup is not a substitute for off-machine storage.
 
+## Optional server hosting
+
+Eligible first-month purchases through this [BisectHosting affiliate link](https://url-shortener.curseforge.com/LnNbp) support the project through CurseForge Reward Points and include a 25% first-month discount. Hosting is optional; the modpack remains free.
+
 ## Public beta scope
 
 Beta 3 adds a single Field Overview shortcut and clear in-panel access explanations to the six-language beta. The original campaign module is included in overrides while its CurseForge catalog approval is pending. The native App export preserves the previous authored world and all inherited payload files except that module. The exact module passes 197 Java domain test programs. Client startup was observed and the pack author reported working in-game menus. These are scoped interface observations, not a full survival playthrough or exhaustive keyboard/localization coverage. Earlier native machine/research/defense, personal-clone, JEI and backup/restore checks retain their original build scope. Public CI validates distribution files and archives; it does not compile the private campaign source.
