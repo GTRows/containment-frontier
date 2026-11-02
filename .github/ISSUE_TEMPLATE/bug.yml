@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible beta issue.
+title: 'fix: '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      description: Include the exact beta version and whether this is solo or a dedicated server.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: State what you did, what happened, and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add relevant screenshots or short log excerpts. Remove credentials, addresses and personal paths. Include recipe mode and campaign difficulty for balance issues.
+    validations:
+      required: true
