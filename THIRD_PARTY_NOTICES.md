@@ -8,4 +8,4 @@ The client distribution references third-party mods through the unmodified Curse
 
 All dependency authors retain their rights. Individual project links are in MODLIST.md. Original content rights are in LICENSE.md.
 
-The icon and header are AI-generated brand artwork, not screenshots. The three gallery PNGs are unedited native Minecraft F2 captures of the authored map, taken from a separate camera fixture. Embedded provenance is preserved. Significant AI assistance was used in custom implementation, writing and localization; this is disclosed rather than presented as exclusively manual authorship.
+The icon and header are promotional artwork, not screenshots. The three gallery PNGs are unedited native Minecraft F2 captures of the authored map, taken from a separate camera fixture. Embedded provenance is preserved.
