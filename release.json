@@ -35,8 +35,8 @@
     "itemAndBlockNames": "English",
     "minecraftGlobalLanguageChanged": false
   },
-  "dependencyLockSha256": "744ad8cb658c6c2d8c79306d4db386b2d7a3822873ce92d5e17350094035780e",
-  "worldLockSha256": "e65eac38e3bd28fbaa3df5eb9b3315935629cdee83919a36bf0f64443a18da4a",
+  "dependencyLockSha256": "f7d73fccdb045d06806a4c4a470d99472345e959f0aa1ed88bbb5516cb89e6f0",
+  "worldLockSha256": "1322cbeac32afbbdec2c1bc2e67145040b77801b78b58e74512ef97c931d7bdf",
   "presentationAssets": {
     "assets/containment-frontier-cover.png": "3fad78d7ab40e541a095ab8e7acce30626527df0761ac799ad93992f8c4bd57c",
     "assets/containment-frontier-icon.png": "d4a296fb6c87025b811f44b7ed3e90aa44e84d6098ff208197e1140783652c03",

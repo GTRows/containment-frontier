@@ -113,6 +113,15 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "dependency lock"):
             self.validator.validate_repository(self.root, check_files=False)
 
+    def test_lock_hashes_are_portable_across_windows_and_linux(self):
+        for name, field in [("dependencies.json", "dependencyLockSha256"),
+                            ("campaign-world.json", "worldLockSha256")]:
+            body = (json.dumps(json.loads((self.root / name).read_text()), indent=2) + "\n").encode()
+            self.metadata[field] = self.digest(body)
+            (self.root / name).write_bytes(body.replace(b"\n", b"\r\n"))
+        self.save_metadata()
+        self.validator.validate_repository(self.root, check_files=False)
+
     def test_original_asset_hash_is_checked(self):
         self.metadata["presentationAssets"] = {"icon.png": self.digest(b"original")}
         (self.root / "icon.png").write_bytes(b"changed")

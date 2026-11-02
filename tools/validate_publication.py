@@ -49,8 +49,8 @@ def validate_repository(root, check_files=True):
     require(isinstance(data["client"]["bytes"], int) and data["client"]["bytes"] > 0, "Invalid archive size")
     for value in [data["client"]["sha256"], data["customModuleSha256"], data["dependencyLockSha256"], data["worldLockSha256"], *data["presentationAssets"].values()]:
         require(isinstance(value, str) and re.fullmatch(r"[0-9a-f]{64}", value), "Invalid SHA256")
-    require(digest((root / "dependencies.json").read_bytes()) == data["dependencyLockSha256"], "Changed dependency lock")
-    require(digest((root / "campaign-world.json").read_bytes()) == data["worldLockSha256"], "Changed world lock")
+    require(digest((root / "dependencies.json").read_bytes().replace(b"\r\n", b"\n")) == data["dependencyLockSha256"], "Changed dependency lock")
+    require(digest((root / "campaign-world.json").read_bytes().replace(b"\r\n", b"\n")) == data["worldLockSha256"], "Changed world lock")
     for name, expected in data["presentationAssets"].items():
         require(safe_path(name) and (root / name).is_file() and digest((root / name).read_bytes()) == expected, f"Changed or missing asset: {name}")
     for path in root.rglob("*.md"):
