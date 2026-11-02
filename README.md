@@ -6,7 +6,7 @@ Published by **[GTRowsss](https://github.com/GTRows)**. Minecraft 1.21.1 / NeoFo
 
 [![Publication checks](https://github.com/GTRows/containment-frontier/actions/workflows/validate.yml/badge.svg)](https://github.com/GTRows/containment-frontier/actions/workflows/validate.yml)
 
-![AI-generated brand artwork, not an in-game screenshot](assets/containment-frontier-cover.png)
+![Containment Frontier promotional artwork](assets/containment-frontier-cover.png)
 
 Rebuild the industry. Hold the perimeter. Research the recovery.
 
@@ -55,7 +55,7 @@ Beta 3 adds a single Field Overview shortcut and clear in-panel access explanati
 
 Long solo/cooperative campaigns, naturally earned high-trait crop breeding and sustained endgame treatment production still need broader playtesting. Balance and progression may change during beta. Start a new world for this first beta and do not overwrite an existing campaign.
 
-## Credits and artwork disclosure
+## Credits and gallery
 
 **Faithful 32x** by the Faithful Resource Pack team is selected by default: [faithfulpack.net](https://faithfulpack.net/) · [license](https://faithfulpack.net/license).
 
@@ -63,7 +63,7 @@ Long solo/cooperative campaigns, naturally earned high-trait crop breeding and s
 
 All included mods belong to their respective authors; see the dependency list for individual projects. The bundled **Continuity Frontier** campaign module is original pack-specific content and requires the matching pack data.
 
-Generative AI assisted the custom campaign implementation, writing, localization and release preparation. The project icon and header are **AI-generated brand artwork**, not screenshots or promises of in-game models. Only images explicitly labeled as native captures show the actual game. Please use this repository's Issues for beta feedback; include the pack version and reproduction steps, and remove credentials and personal information from logs.
+The project icon and header are promotional artwork. Images labeled as native captures show the actual game. Please use this repository's Issues for beta feedback; include the pack version and reproduction steps, and remove credentials and personal information from logs.
 
 ## Native in-game gallery
 
