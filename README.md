@@ -2,7 +2,9 @@
 
 Published by **[GTRowsss](https://github.com/GTRows)**. Minecraft 1.21.1 / NeoForge 21.1.265 / Java 21.
 
-**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.2)** · [Installation](INSTALLATION.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues)
+**[Download the beta](https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.3)** · [Installation](INSTALLATION.md) · [Report an issue](https://github.com/GTRows/containment-frontier/issues) · [Contribute](CONTRIBUTING.md)
+
+[![Publication checks](https://github.com/GTRows/containment-frontier/actions/workflows/validate.yml/badge.svg)](https://github.com/GTRows/containment-frontier/actions/workflows/validate.yml)
 
 ![AI-generated brand artwork, not an in-game screenshot](assets/containment-frontier-cover.png)
 
@@ -34,7 +36,7 @@ Download the beta ZIP from this repository's Releases and import it into a new C
 
 Choose the recipe mode and difficulty once. Use your starting **Field Tablet** to open **Crew registration**, create or join an FTB Teams party, then select **Register campaign**. A one-player party is sufficient. Follow the opening quest chapter for supplies and production; there is no free clone station or prepared clone body.
 
-The tablet and inventory/JEI shortcuts open Operations and Research. Local machine panels handle that machine's requirements and connection faces. Pack-owned interface, quest and story text support **English, Russian, Spanish, Brazilian Portuguese, German and Turkish** in beta 2 and later. Open **Language** in the Operations sidebar to enter **Settings**. Your choice applies immediately and is saved for that client profile; it does not change Minecraft's overall language. Item and block names remain English. Beta 1 retains its original English/Turkish support.
+The tablet and the single **Field Overview** inventory/JEI shortcut open Operations. Crew registration, clones and Research are available inside that panel. A blocked page explains the missing prerequisite or permission. Local machine panels handle that machine's requirements and connection faces. Pack-owned interface, quest and story text support **English, Russian, Spanish, Brazilian Portuguese, German and Turkish** in beta 2 and later. Open **Language** in the Operations sidebar to enter **Settings**. Your choice applies immediately and is saved for that client profile; it does not change Minecraft's overall language. Item and block names remain English. Beta 1 retains its original English/Turkish support.
 
 ## Version and server information
 
@@ -45,7 +47,7 @@ The tablet and inventory/JEI shortcuts open Operations and Research. Local machi
 
 ## Public beta scope
 
-Beta 2 extends the private59 a9 campaign with the language settings update. Its App-generated manifest is unchanged. The original campaign module is included in overrides while its CurseForge catalog approval is pending. Automated source checks, scoped native machine/research/defense fixtures, personal-clone rules, owned models and JEI visibility, basic client interfaces and backup/restore have recorded checks. They do not constitute a full survival playthrough. The language update passes source and resource checks; the new Settings view still needs an in-game visual and keyboard check. Earlier native checks retain their original build scope.
+Beta 3 adds a single Field Overview shortcut and clear in-panel access explanations to the six-language beta. The original campaign module is included in overrides while its CurseForge catalog approval is pending. The native App export preserves the previous authored world and all inherited payload files except that module. The exact module passes 197 Java domain test programs. Client startup was observed and the pack author reported working in-game menus. These are scoped interface observations, not a full survival playthrough or exhaustive keyboard/localization coverage. Earlier native machine/research/defense, personal-clone, JEI and backup/restore checks retain their original build scope. Public CI validates distribution files and archives; it does not compile the private campaign source.
 
 Long solo/cooperative campaigns, naturally earned high-trait crop breeding and sustained endgame treatment production still need broader playtesting. Balance and progression may change during beta. Start a new world for this first beta and do not overwrite an existing campaign.
 
@@ -71,4 +73,4 @@ These unedited F2 screenshots show a fresh authored-world copy with the pinned v
 
 ## Repository scope
 
-This repository distributes the pack, documentation and original presentation assets. The internal development source and history are maintained separately. Original content remains All Rights Reserved; dependency licenses and credits remain applicable.
+This repository distributes the pack, documentation, original presentation assets and public validation tools. Anyone can fork it and open a PR for files available here; see [Contributing](CONTRIBUTING.md) for the format, tests and review process. Campaign bugs and proposals are welcome in Issues. The internal development source and history are maintained separately. Original content remains All Rights Reserved; dependency licenses and credits remain applicable.

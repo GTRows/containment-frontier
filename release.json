@@ -1,23 +1,23 @@
 {
-  "version": "0.5.0-beta.2",
+  "version": "0.5.0-beta.3",
   "channel": "Beta",
   "publisherDisplayName": "GTRowsss",
   "githubOwner": "GTRows",
   "repository": "https://github.com/GTRows/containment-frontier",
-  "release": "https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.2",
+  "release": "https://github.com/GTRows/containment-frontier/releases/tag/v0.5.0-beta.3",
   "minecraft": "1.21.1",
   "loader": "NeoForge 21.1.265",
   "java": 21,
   "recommendedMemoryMB": 6144,
-  "basedOn": "private59 a9 + scoped language settings",
+  "basedOn": "private59 a9 + beta 2 language settings + tested menu/access fixes",
   "client": {
-    "filename": "Containment-Frontier-0.5.0-beta.2-CurseForge.zip",
-    "sha256": "fb813894c70e8356f62ed4e99c3330334b0e8f4dba15f774dc4a99891f0dbeca",
-    "bytes": 11873714,
-    "download": "https://github.com/GTRows/containment-frontier/releases/download/v0.5.0-beta.2/Containment-Frontier-0.5.0-beta.2-CurseForge.zip",
+    "filename": "Containment-Frontier-0.5.0-beta.3-CurseForge.zip",
+    "sha256": "013e0edfff31d266bc39b9fc76edc6a7ac6bb585cf8439b70fc992f341340e61",
+    "bytes": 11881853,
+    "download": "https://github.com/GTRows/containment-frontier/releases/download/v0.5.0-beta.3/Containment-Frontier-0.5.0-beta.3-CurseForge.zip",
     "appManifestEdited": false
   },
-  "customModuleSha256": "ad5a2920f54dbdcb8e632c57b5130b120569ce886b0f98c1c17a9d70bd052959",
+  "customModuleSha256": "dfd9d2852ff75ec0710088617b657b4cdfb1e817c6d9f4678581669952317c27",
   "curseforgeCatalogApproved": false,
   "campaignReady": false,
   "qualifiedRelease": false,
@@ -34,5 +34,14 @@
     ],
     "itemAndBlockNames": "English",
     "minecraftGlobalLanguageChanged": false
+  },
+  "dependencyLockSha256": "f7d73fccdb045d06806a4c4a470d99472345e959f0aa1ed88bbb5516cb89e6f0",
+  "worldLockSha256": "1322cbeac32afbbdec2c1bc2e67145040b77801b78b58e74512ef97c931d7bdf",
+  "presentationAssets": {
+    "assets/containment-frontier-cover.png": "3fad78d7ab40e541a095ab8e7acce30626527df0761ac799ad93992f8c4bd57c",
+    "assets/containment-frontier-icon.png": "d4a296fb6c87025b811f44b7ed3e90aa44e84d6098ff208197e1140783652c03",
+    "assets/gallery/core-outpost.png": "d8807419180d4ec7cb357a79c44c734156ddc06d0a4853799b544a29b4924b30",
+    "assets/gallery/metallurgy-district.png": "c3491cb408738524bc4a3b3b1e5b85820373c9215292590f9975c13110bbc9ee",
+    "assets/gallery/starter-workshop.png": "dac4956fc0aad3c38d516b9dec9740faa6c362d256f1709d776974570e7f70e9"
   }
 }

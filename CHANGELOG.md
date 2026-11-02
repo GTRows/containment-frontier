@@ -1,3 +1,15 @@
+# 0.5.0-beta.3 - GitHub prerelease
+
+- Keeps only Field Overview above inventory/JEI. Registration, clones and Research remain inside Operations.
+- Explains blocked pages inside the panel using the actual prerequisite or permission, including registration, team mismatch, campaign failure and clone recovery. Diagnostics stay read-only.
+- Extends all six pack languages for access explanations, keeping item/block names English and Minecraft language independent.
+- Adds contribution instructions, issue forms, PR formatting, Python regression tests and read-only GitHub Actions. Anyone can fork and propose changes to the public files.
+- Preserves all 30 canonical starter-world files and 917 inherited payload files; only the original module changes. The native App manifest is unedited.
+- The exact module passes 197 Java domain test programs. Client startup was observed; the pack author reported working in-game menus. This does not qualify a full campaign.
+- CurseForge original-module approval is still pending. The modpack upload waits for approval and an approved-reference App export.
+
+Existing beta releases remain unchanged. Back up before updating; importing into a separate profile is recommended.
+
 # 0.5.0-beta.2 - GitHub prerelease
 
 - Adds a Language entry in Operations that opens local Settings without leaving the current machine or tablet session.
